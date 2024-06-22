@@ -1,9 +1,10 @@
+#!/usr/bin/env python
 import sys
 #######################################################
 # Modified version of porter stemmer by Vivake Gupta (v@nano.com)       
 # Author: Abhinav Kumar                               #
 # Email: anu55abhi@gmail.com                          #
-# Last modified: 16/Jun/2024                          #
+# Last modified: 22/Jun/2024                          #
 #                                                     #
 # Usage:                                              #
 # Import it, instantiate it, and pass                 #
@@ -331,22 +332,3 @@ class PorterStemmer_Modified:
             self.handle_verb_suffixes()  # Added step
 
             return self.buffer[self.start:self.end + 1]
-
-
-if __name__ == '__main__':
-    stemmer = PorterStemmer_Modified()
-    if len(sys.argv) > 1:
-        for file_name in sys.argv[1:]:
-            with open(file_name, 'r') as infile:
-                for line in infile:
-                    output = ''
-                    word = ''
-                    for char in line:
-                        if char.isalpha():
-                            word += char.lower()
-                        else:
-                            if word:
-                                output += stemmer.stem(word)
-                                word = ''
-                            output += char.lower()
-                    print(output, end='')
