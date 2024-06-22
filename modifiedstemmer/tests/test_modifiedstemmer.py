@@ -1,16 +1,18 @@
-# -*- coding: utf-8 -*-
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+
 """
-Tests for `modified_porterstemmer` module.
+Tests for `modifiedstemmer` module.
 """
 import unittest
 import os
 import sys
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src/modifiedstemmer')))
 from PorterStemmer_Modified import PorterStemmer_Modified
 
 
-class Test_Modified_Porterstemmer(unittest.TestCase):
+class Test_Modified_stemmer(unittest.TestCase):
 
     def setUp(self):
         pass

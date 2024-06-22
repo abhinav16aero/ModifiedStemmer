@@ -1,11 +1,14 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import setuptools
 
 with open("README.md", "r", encoding = "utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name = "modified_porterstemmer",
-    version = "0.0.3",
+    name = "modifiedstemmer",
+    version = "0.0.2",
     author = "Abhinav Kumar",
     author_email = "anu55abhi@gmail.com",
     description = "A modified Porter stemmer for verbs and other additional rules.",
@@ -21,6 +24,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_dir = {"": "src"},
-    packages = setuptools.find_packages(where="src"),
+    packages = setuptools.find_packages(where="src/modifiedstemmer"),
     python_requires = ">=3.6"
 )

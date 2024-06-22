@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import sys
 #######################################################
 # Modified version of porter stemmer by Vivake Gupta (v@nano.com)       
@@ -9,11 +11,7 @@ import sys
 # Usage:                                              #
 # Import it, instantiate it, and pass                 #
 # words as arguments to the stem method.              #
-#                                                     #
-# Example:                                            #
-# from PorterStemmer_Modified import PorterStemmer_Modified           
-# stemmer = PorterStemmer_Modified()                  #
-# print stemmer.stem('Real is reality, Reality is always real')                   
+#                                                     #                 
 #######################################################
 
 
