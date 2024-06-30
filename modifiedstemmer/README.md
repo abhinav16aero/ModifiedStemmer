@@ -8,16 +8,16 @@ Stemming is highly useful in various applications, with query expansion in infor
 
 ### What type of stemmer is this?
 
-Porterstemmer_Modified is a suffix-stripping stemmer, which means it transforms words into stems by applying a predetermined sequence of changes to the word's suffix. Other stemmers may function differently, such as by using a lookup table to map inflected forms to their roots or by employing clustering techniques to group various forms around a central form. Each approach comes with its own set of pros and cons. Porterstemmer_Modified, specifically, is a modified version of the original Porter stemmer and includes more comprehensive rules for handling verbs and suffixes.
+modifiedstemmer is a suffix-stripping stemmer, which means it transforms words into stems by applying a predetermined sequence of changes to the word's suffix. Other stemmers may function differently, such as by using a lookup table to map inflected forms to their roots or by employing clustering techniques to group various forms around a central form. Each approach comes with its own set of pros and cons. modifiedstemmer, specifically, is a modified version of the original Porter stemmer and includes more comprehensive rules for handling verbs and suffixes.
 
 ### How do I use it?
 
-Using the Porterstemmer_Modified is straightforward. Simply import the stemmer, create an instance, and use it to stem words:
+Using the modifiedstemmer is straightforward. Simply import the stemmer, create an instance, and use it to stem words:
 
 ```python
 
-from modifiedstemmer import Porterstemmer_Modified
-stemmer = Porterstemmer_Modified()
+from modifiedstemmer import stemmer
+stemmer = stemmer()
 print(stemmer.stem('consistent'))
 
 ```

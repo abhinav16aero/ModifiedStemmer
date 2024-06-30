@@ -8,7 +8,7 @@ with open("README.md", "r", encoding = "utf-8") as fh:
 
 setuptools.setup(
     name = "modifiedstemmer",
-    version = "0.0.6",
+    version = "0.0.7",
     author = "Abhinav Kumar",
     author_email = "anu55abhi@gmail.com",
     description = "A modified Porter stemmer for verbs and other additional rules.",
