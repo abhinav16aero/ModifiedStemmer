@@ -15,7 +15,7 @@ import sys
 #######################################################
 
 
-class PorterStemmer_Modified:
+class stemmer(object):
     """
     Stem words according to the Porter stemming algorithm.
     """

@@ -15,9 +15,11 @@ Porterstemmer_Modified is a suffix-stripping stemmer, which means it transforms 
 Using the Porterstemmer_Modified is straightforward. Simply import the stemmer, create an instance, and use it to stem words:
 
 ```python
-from Porterstemmer_Modified import Porterstemmer_Modified
+
+from modifiedstemmer import Porterstemmer_Modified
 stemmer = Porterstemmer_Modified()
 print(stemmer.stem('consistent'))
+
 ```
 
 This process will convert the word 'consistent' to its stem form.

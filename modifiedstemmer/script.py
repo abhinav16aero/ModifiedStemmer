@@ -1,4 +1,4 @@
 #!/usr/bin/env python
-from Porterstemmer_Modified import Porterstemmer_Modified
-stemmer = Porterstemmer_Modified()
+from modifiedstemmer import stemmer
+stemmer = stemmer()
 print(stemmer.stem('consistent'))

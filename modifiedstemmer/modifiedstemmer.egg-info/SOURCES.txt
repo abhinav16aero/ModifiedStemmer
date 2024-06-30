@@ -5,10 +5,10 @@ README.md
 pyproject.toml
 setup.cfg
 setup.py
-src/modifiedstemmer.egg-info/PKG-INFO
-src/modifiedstemmer.egg-info/SOURCES.txt
-src/modifiedstemmer.egg-info/dependency_links.txt
-src/modifiedstemmer.egg-info/top_level.txt
+modifiedstemmer.egg-info/PKG-INFO
+modifiedstemmer.egg-info/SOURCES.txt
+modifiedstemmer.egg-info/dependency_links.txt
+modifiedstemmer.egg-info/top_level.txt
 tests/__init__.py
 tests/test_modifiedstemmer.py
 tests/tests.csv

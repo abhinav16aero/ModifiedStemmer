@@ -8,7 +8,7 @@ Tests for `modifiedstemmer` module.
 import unittest
 import os
 import sys
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src/modifiedstemmer')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'modifiedstemmer')))
 from PorterStemmer_Modified import PorterStemmer_Modified
 
 
