@@ -16,9 +16,9 @@ Using the modifiedstemmer is straightforward. Simply import the stemmer, create 
 
 ```python
 
-from modifiedstemmer import stemmer
-stemmer = stemmer()
-print(stemmer.stem('consistent'))
+from mod_stemmer import modifiedstemmer
+my_stemmer = modifiedstemmer.stemmer()
+print(my_stemmer.stem('consistency'))
 
 ```
 
