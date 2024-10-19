@@ -6,7 +6,7 @@ import sys
 # Modified version of porter stemmer by Vivake Gupta (v@nano.com)       
 # Author: Abhinav Kumar                               #
 # Email: anu55abhi@gmail.com                          #
-# Last modified: 22/Jun/2024                          #
+# Last modified: 22/Oct/2024                          #
 #                                                     #
 # Usage:                                              #
 # Import it, instantiate it, and pass                 #

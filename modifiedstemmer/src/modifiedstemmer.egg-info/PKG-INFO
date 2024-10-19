@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: modifiedstemmer
-Version: 0.0.7
+Version: 0.0.10
 Summary: A modified Porter stemmer for verbs and other additional rules.
 Home-page: https://github.com/abhinav16aero/ModifiedStemmer
 Author: Abhinav Kumar

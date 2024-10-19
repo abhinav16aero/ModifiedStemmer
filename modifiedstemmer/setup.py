@@ -8,7 +8,7 @@ with open("README.md", "r", encoding = "utf-8") as fh:
 
 setuptools.setup(
     name = "modifiedstemmer",
-    version = "0.0.7",
+    version = "0.0.10",
     author = "Abhinav Kumar",
     author_email = "anu55abhi@gmail.com",
     description = "A modified Porter stemmer for verbs and other additional rules.",
@@ -23,7 +23,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    package_dir = {'modifiedstemmer':'modifiedstemmer'},
-    packages = setuptools.find_packages(where="modifiedstemmer"),
+    package_dir = {"": "src"},
+    packages = setuptools.find_packages(where="src"),
     python_requires = ">=3.6"
 )
