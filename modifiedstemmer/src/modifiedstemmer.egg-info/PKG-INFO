@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: modifiedstemmer
-Version: 0.0.10
+Version: 0.0.11
 Summary: A modified Porter stemmer for verbs and other additional rules.
 Home-page: https://github.com/abhinav16aero/ModifiedStemmer
 Author: Abhinav Kumar
@@ -31,9 +31,9 @@ Using the modifiedstemmer is straightforward. Simply import the stemmer, create 
 
 ```python
 
-from modifiedstemmer import stemmer
-stemmer = stemmer()
-print(stemmer.stem('consistent'))
+from mod_stemmer import modifiedstemmer
+my_stemmer = modifiedstemmer.stemmer()
+print(my_stemmer.stem('consistency'))
 
 ```
 
